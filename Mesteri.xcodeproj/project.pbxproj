@@ -3,27 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32109D29247565BF00F98E04 /* ToJobLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32109D28247565BF00F98E04 /* ToJobLocationController.swift */; };
+		32109D2B2479016E00F98E04 /* ActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32109D2A2479016D00F98E04 /* ActionView.swift */; };
+		321991A3248E30680032593A /* UserHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321991A2248E30680032593A /* UserHomeView.swift */; };
+		321C413D2469698000E98F58 /* JobAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321C413C2469698000E98F58 /* JobAnnotation.swift */; };
+		321C413F246984AA00E98F58 /* PickUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321C413E246984AA00E98F58 /* PickUpController.swift */; };
+		321C4141246ABA3900E98F58 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321C4140246ABA3900E98F58 /* Offer.swift */; };
+		322FCCD524597E48009BC91B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322FCCD424597E48009BC91B /* Extensions.swift */; };
+		326812DF245FF9F900488F38 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812DE245FF9F900488F38 /* Service.swift */; };
+		326812E12460116600488F38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812E02460116600488F38 /* User.swift */; };
+		326812E3246132D700488F38 /* JobDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812E2246132D700488F38 /* JobDetailsController.swift */; };
+		326812E5246132EE00488F38 /* MesteriListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812E4246132EE00488F38 /* MesteriListController.swift */; };
+		326812E72461472900488F38 /* SearchMesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812E62461472900488F38 /* SearchMesterView.swift */; };
+		326812E924616DD600488F38 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812E824616DD600488F38 /* TableViewCell.swift */; };
+		326812F124632A3F00488F38 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812F024632A3F00488F38 /* LocationHandler.swift */; };
+		326812F32463433600488F38 /* MesterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326812F22463433600488F38 /* MesterAnnotation.swift */; };
+		327384512459BE10007AA0C0 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327384502459BE10007AA0C0 /* AuthButton.swift */; };
+		32738453245BFE0E007AA0C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32738452245BFE0E007AA0C0 /* GoogleService-Info.plist */; };
 		3288C6FF24596C4E005C1398 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288C6FE24596C4E005C1398 /* AppDelegate.swift */; };
 		3288C70124596C4E005C1398 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288C70024596C4E005C1398 /* SceneDelegate.swift */; };
-		3288C70324596C4E005C1398 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288C70224596C4E005C1398 /* ViewController.swift */; };
 		3288C70624596C4E005C1398 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3288C70424596C4E005C1398 /* Main.storyboard */; };
 		3288C70824596C52005C1398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3288C70724596C52005C1398 /* Assets.xcassets */; };
 		3288C70B24596C52005C1398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3288C70924596C52005C1398 /* LaunchScreen.storyboard */; };
+		3288C71D24596FFF005C1398 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3288C71C24596FFF005C1398 /* LoginController.swift */; };
+		329726D2245C76BD002DED11 /* SignUpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329726D1245C76BD002DED11 /* SignUpUser.swift */; };
+		329726D5245CBD48002DED11 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329726D4245CBD48002DED11 /* HomeController.swift */; };
+		32B1A61624706D6700801B53 /* ListOffersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1A61524706D6700801B53 /* ListOffersController.swift */; };
+		32B1A61824728DA100801B53 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32B1A61724728DA100801B53 /* OfferCell.swift */; };
+		32E0BECE2467EA4800CD2EBA /* SignUpMester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329726CF245C76AE002DED11 /* SignUpMester.swift */; };
+		32E0BED4246884EE00CD2EBA /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E0BED3246884EE00CD2EBA /* Job.swift */; };
+		D4A0F64FBFE70433F8797414 /* Pods_Mesteri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6291930FFC67EFEB9659A302 /* Pods_Mesteri.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32109D28247565BF00F98E04 /* ToJobLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToJobLocationController.swift; sourceTree = "<group>"; };
+		32109D2A2479016D00F98E04 /* ActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionView.swift; sourceTree = "<group>"; };
+		321991A2248E30680032593A /* UserHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHomeView.swift; sourceTree = "<group>"; };
+		321C413C2469698000E98F58 /* JobAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobAnnotation.swift; sourceTree = "<group>"; };
+		321C413E246984AA00E98F58 /* PickUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpController.swift; sourceTree = "<group>"; };
+		321C4140246ABA3900E98F58 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
+		322FCCD424597E48009BC91B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		326812DE245FF9F900488F38 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		326812E02460116600488F38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		326812E2246132D700488F38 /* JobDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsController.swift; sourceTree = "<group>"; };
+		326812E4246132EE00488F38 /* MesteriListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesteriListController.swift; sourceTree = "<group>"; };
+		326812E62461472900488F38 /* SearchMesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMesterView.swift; sourceTree = "<group>"; };
+		326812E824616DD600488F38 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		326812F024632A3F00488F38 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		326812F22463433600488F38 /* MesterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MesterAnnotation.swift; sourceTree = "<group>"; };
+		327384502459BE10007AA0C0 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		32738452245BFE0E007AA0C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3288C6FB24596C4E005C1398 /* Mesteri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mesteri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3288C6FE24596C4E005C1398 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3288C70024596C4E005C1398 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3288C70224596C4E005C1398 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3288C70524596C4E005C1398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3288C70724596C52005C1398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3288C70A24596C52005C1398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3288C70C24596C52005C1398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3288C71C24596FFF005C1398 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		329726CF245C76AE002DED11 /* SignUpMester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpMester.swift; sourceTree = "<group>"; };
+		329726D1245C76BD002DED11 /* SignUpUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUser.swift; sourceTree = "<group>"; };
+		329726D4245CBD48002DED11 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		32B1A61524706D6700801B53 /* ListOffersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOffersController.swift; sourceTree = "<group>"; };
+		32B1A61724728DA100801B53 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		32E0BED3246884EE00CD2EBA /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		6291930FFC67EFEB9659A302 /* Pods_Mesteri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mesteri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99942E49C436618152A1E5C0 /* Pods-Mesteri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mesteri.release.xcconfig"; path = "Target Support Files/Pods-Mesteri/Pods-Mesteri.release.xcconfig"; sourceTree = "<group>"; };
+		BF765A9068A523B9A73EAEC1 /* Pods-Mesteri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mesteri.debug.xcconfig"; path = "Target Support Files/Pods-Mesteri/Pods-Mesteri.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +81,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A0F64FBFE70433F8797414 /* Pods_Mesteri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2169C1AFD1DDC1CB0EA8B085 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6291930FFC67EFEB9659A302 /* Pods_Mesteri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3288C6F224596C4E005C1398 = {
 			isa = PBXGroup;
 			children = (
 				3288C6FD24596C4E005C1398 /* Mesteri */,
 				3288C6FC24596C4E005C1398 /* Products */,
+				5710FED04A5F017E9988F23C /* Pods */,
+				2169C1AFD1DDC1CB0EA8B085 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +117,103 @@
 		3288C6FD24596C4E005C1398 /* Mesteri */ = {
 			isa = PBXGroup;
 			children = (
+				3288C71824596C6F005C1398 /* Model */,
+				3288C71724596C68005C1398 /* View */,
+				3288C71624596C67005C1398 /* Controller */,
+				3288C71524596C64005C1398 /* Services */,
+				3288C71224596C58005C1398 /* Utils */,
 				3288C6FE24596C4E005C1398 /* AppDelegate.swift */,
 				3288C70024596C4E005C1398 /* SceneDelegate.swift */,
-				3288C70224596C4E005C1398 /* ViewController.swift */,
 				3288C70424596C4E005C1398 /* Main.storyboard */,
 				3288C70724596C52005C1398 /* Assets.xcassets */,
 				3288C70924596C52005C1398 /* LaunchScreen.storyboard */,
+				32738452245BFE0E007AA0C0 /* GoogleService-Info.plist */,
 				3288C70C24596C52005C1398 /* Info.plist */,
 			);
 			path = Mesteri;
+			sourceTree = "<group>";
+		};
+		3288C71224596C58005C1398 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				322FCCD424597E48009BC91B /* Extensions.swift */,
+				326812F024632A3F00488F38 /* LocationHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3288C71524596C64005C1398 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				326812DE245FF9F900488F38 /* Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3288C71624596C67005C1398 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				329726DA245EF108002DED11 /* Authentification */,
+				3288C71C24596FFF005C1398 /* LoginController.swift */,
+				329726D4245CBD48002DED11 /* HomeController.swift */,
+				326812E4246132EE00488F38 /* MesteriListController.swift */,
+				326812E2246132D700488F38 /* JobDetailsController.swift */,
+				321C413E246984AA00E98F58 /* PickUpController.swift */,
+				32B1A61524706D6700801B53 /* ListOffersController.swift */,
+				32109D28247565BF00F98E04 /* ToJobLocationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3288C71724596C68005C1398 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				327384502459BE10007AA0C0 /* AuthButton.swift */,
+				326812E62461472900488F38 /* SearchMesterView.swift */,
+				326812E824616DD600488F38 /* TableViewCell.swift */,
+				32B1A61724728DA100801B53 /* OfferCell.swift */,
+				32109D2A2479016D00F98E04 /* ActionView.swift */,
+				321991A2248E30680032593A /* UserHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3288C71824596C6F005C1398 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				326812E02460116600488F38 /* User.swift */,
+				326812F22463433600488F38 /* MesterAnnotation.swift */,
+				32E0BED3246884EE00CD2EBA /* Job.swift */,
+				321C413C2469698000E98F58 /* JobAnnotation.swift */,
+				321C4140246ABA3900E98F58 /* Offer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		329726D3245C9369002DED11 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				329726D1245C76BD002DED11 /* SignUpUser.swift */,
+				329726CF245C76AE002DED11 /* SignUpMester.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		329726DA245EF108002DED11 /* Authentification */ = {
+			isa = PBXGroup;
+			children = (
+				329726D3245C9369002DED11 /* SignUp */,
+			);
+			path = Authentification;
+			sourceTree = "<group>";
+		};
+		5710FED04A5F017E9988F23C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF765A9068A523B9A73EAEC1 /* Pods-Mesteri.debug.xcconfig */,
+				99942E49C436618152A1E5C0 /* Pods-Mesteri.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3288C70F24596C52005C1398 /* Build configuration list for PBXNativeTarget "Mesteri" */;
 			buildPhases = (
+				08AAAB3495C9F976BD788A49 /* [CP] Check Pods Manifest.lock */,
 				3288C6F724596C4E005C1398 /* Sources */,
 				3288C6F824596C4E005C1398 /* Frameworks */,
 				3288C6F924596C4E005C1398 /* Resources */,
+				3FAEF9CEB2BD85A60723B7FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3288C70B24596C52005C1398 /* LaunchScreen.storyboard in Resources */,
+				32738453245BFE0E007AA0C0 /* GoogleService-Info.plist in Resources */,
 				3288C70824596C52005C1398 /* Assets.xcassets in Resources */,
 				3288C70624596C4E005C1398 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +285,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08AAAB3495C9F976BD788A49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mesteri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FAEF9CEB2BD85A60723B7FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mesteri/Pods-Mesteri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mesteri/Pods-Mesteri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mesteri/Pods-Mesteri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3288C6F724596C4E005C1398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3288C70324596C4E005C1398 /* ViewController.swift in Sources */,
+				321C4141246ABA3900E98F58 /* Offer.swift in Sources */,
+				326812F124632A3F00488F38 /* LocationHandler.swift in Sources */,
+				321C413F246984AA00E98F58 /* PickUpController.swift in Sources */,
+				329726D2245C76BD002DED11 /* SignUpUser.swift in Sources */,
+				32109D29247565BF00F98E04 /* ToJobLocationController.swift in Sources */,
+				326812E924616DD600488F38 /* TableViewCell.swift in Sources */,
+				32E0BECE2467EA4800CD2EBA /* SignUpMester.swift in Sources */,
+				326812E72461472900488F38 /* SearchMesterView.swift in Sources */,
 				3288C6FF24596C4E005C1398 /* AppDelegate.swift in Sources */,
+				327384512459BE10007AA0C0 /* AuthButton.swift in Sources */,
+				329726D5245CBD48002DED11 /* HomeController.swift in Sources */,
+				326812E5246132EE00488F38 /* MesteriListController.swift in Sources */,
+				32109D2B2479016E00F98E04 /* ActionView.swift in Sources */,
+				3288C71D24596FFF005C1398 /* LoginController.swift in Sources */,
+				32B1A61824728DA100801B53 /* OfferCell.swift in Sources */,
+				326812E12460116600488F38 /* User.swift in Sources */,
+				326812DF245FF9F900488F38 /* Service.swift in Sources */,
+				32E0BED4246884EE00CD2EBA /* Job.swift in Sources */,
+				32B1A61624706D6700801B53 /* ListOffersController.swift in Sources */,
+				326812F32463433600488F38 /* MesterAnnotation.swift in Sources */,
+				321991A3248E30680032593A /* UserHomeView.swift in Sources */,
 				3288C70124596C4E005C1398 /* SceneDelegate.swift in Sources */,
+				322FCCD524597E48009BC91B /* Extensions.swift in Sources */,
+				321C413D2469698000E98F58 /* JobAnnotation.swift in Sources */,
+				326812E3246132D700488F38 /* JobDetailsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +498,7 @@
 		};
 		3288C71024596C52005C1398 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF765A9068A523B9A73EAEC1 /* Pods-Mesteri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +517,7 @@
 		};
 		3288C71124596C52005C1398 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99942E49C436618152A1E5C0 /* Pods-Mesteri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
